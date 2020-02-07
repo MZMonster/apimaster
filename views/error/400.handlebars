@@ -1,0 +1,14 @@
+<div class="error-wrap">
+  <div class="error">
+    <img class="error-img" src="/images/404.png" alt="404">
+
+    <p class="error-type">400</p>
+
+    {{#if message}}
+      <p class="error-desc">{{message}}</p>
+    {{else}}
+      <p class="error-desc">您没有权限访问这个页面，请检查是否登录?</p>
+    {{/if}}
+
+  </div>
+</div>

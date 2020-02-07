@@ -1,0 +1,25 @@
+{
+  "extends": "airbnb",
+  "plugins": [
+    "react"
+  ],
+  // "parserOptions": {
+  //   "ecmaFeatures": {
+  //     "classes": true,
+  //     "impliedStrict": true,
+  //     "jsx": true,
+  //     "experimentalObjectRestSpread": true
+  //   }
+  // },
+  "parser": "babel-eslint",
+  "rules": {
+    "react/prop-types": 0,
+    "consistent-return": 1,
+    "no-underscore-dangle": 0,
+    "max-len": 1,
+    "new-cap": 1,
+    "no-unused-expressions": 1,
+    "eqeqeq": 1,
+    "no-confusing-arrow": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "generator-react-webpack": {
+    "appName": "mwb",
+    "style": "css",
+    "postcss": true,
+    "generatedWithVersion": 3
+  }
+}
