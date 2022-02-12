@@ -13,7 +13,7 @@ WORKDIR /data/work/
 #加入node程序并安装npm包
 ADD ./ ./
 RUN set -ex \
-  && npm install -g cnpm --registry=https://registry.npm.taobao.org \
+  && npm install -g cnpm --registry=https://registry.npmmirror.com \
   && cnpm install
 
 CMD node app.js 
